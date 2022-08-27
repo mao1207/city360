@@ -1,0 +1,50 @@
+page {
+  background-size: 100% 1624rpx;
+  padding-bottom: 60rpx;
+  padding-top: 54rpx;
+  background: linear-gradient(rgba(90,186,245,1) 5.559%,rgba(140,224,244,1) 12.923%,rgba(158,240,240,1) 19.622%,rgba(165,251,245,1) 32.847%,rgba(254,250,248,0.054901960784313725) 94.713%);
+}
+
+.title{
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000000;
+  font-size: 40rpx;
+  margin-top: 44rpx;
+  margin-bottom: 88rpx;
+  text-align: center;
+}
+
+.rectangle1{
+  position: absolute;
+  width: 16rpx;
+  height: 70rpx;
+  top: 892rpx;
+  left: 0rpx;
+  background: rgb(3, 192, 255);
+  border-top-right-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+}
+
+.text{
+  position: absolute;
+  width: 200rpx;
+  height: 48rpx;
+  top: 790rpx;
+  left: 290rpx;
+  color: rgb(89, 38, 11);
+  font-family: Noto Sans SC;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+  letter-spacing: 0rpx;
+  text-align: left;
+}
+
+.image1{
+  position: absolute;
+  width: 666rpx;
+  height: 500rpx;
+  top: 960rpx;
+  left: 20rpx;
+}

@@ -1,0 +1,13 @@
+<view class="container">
+    <view class="page"></view>
+    <view class="title">梦想云社区</view>
+    <view class="rectangle1"></view>
+    <view class="text" style="top: 240rpx;left:60rpx;font-size:24rpx;width:644rpx">在“儿童友好型城市建设”和“适老化改造”的引导风向下，关注全年龄段人群的生活质量提高需求十分必要。孩子放学后没有一个安静的学习环境？学习之余在小区里没有合适的娱乐场所？忙碌了一天的“打工人”想要在小区里吃到一碗热腾的汤面？老人苦于没有就近的养老医疗保驾护航？在社区生活中，不同年龄段各有需求，通过年龄分段收集社区改造意愿，我们可以提供更加精准的改造服务。</view>
+    <image class="image1" src="../../images/city2.png" style="top:400rpx"></image>
+    <image class="image2" style="left:70rpx" src="../../images/house1.png"></image>
+    <image class="image2" style="left:300rpx" src="../../images/house2.png"></image>
+    <image class="image2" style="left:548rpx" src="../../images/house3.png"></image>
+    <view class="text" style="top: 1030rpx;left:94rpx;font-size:24rpx;">童梦城堡</view>
+    <view class="text" style="top: 1030rpx;left:330rpx;font-size:24rpx;">梦想家园</view>
+    <view class="text" style="top: 1030rpx;left:572rpx;font-size:24rpx;">安享天伦</view>
+</view>

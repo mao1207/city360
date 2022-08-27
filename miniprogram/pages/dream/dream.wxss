@@ -1,0 +1,59 @@
+page {
+  background-size: 100% 2624rpx;
+  padding-bottom: 60rpx;
+  padding-top: 54rpx;
+  background: linear-gradient(rgba(90,186,245,1) 5.559%,rgba(140,224,244,1) 12.923%,rgba(158,240,240,1) 19.622%,rgba(165,251,245,1) 32.847%,rgba(254,250,248,0.054901960784313725) 94.713%);
+}
+
+.title{
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000000;
+  font-size: 40rpx;
+  margin-top: 44rpx;
+  margin-bottom: 88rpx;
+  text-align: center;
+}
+
+.rectangle1{
+  position: absolute;
+  width: 678rpx;
+  height: 400rpx;
+  top: 208rpx;
+  left: 36rpx;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  border: 6rpx solid rgb(138, 193, 255);
+  border-radius: 40rpx;
+}
+
+.text{
+  position: absolute;
+  width: 200rpx;
+  height: 48rpx;
+  top: 790rpx;
+  left: 290rpx;
+  color: rgb(89, 38, 11);
+  font-family: Noto Sans SC;
+  font-size: 32rpx;
+  font-weight: 500;
+  line-height: 48rpx;
+  letter-spacing: 0rpx;
+  text-align: left;
+}
+
+.image1{
+  position: absolute;
+  width: 666rpx;
+  height: 600rpx;
+  top: 330rpx;
+  left: 46rpx;
+}
+
+.image2{
+  position: absolute;
+  width: 150rpx;
+  height: 150rpx;
+  top: 872rpx;
+  left: 90rpx;
+}

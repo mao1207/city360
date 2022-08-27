@@ -1,0 +1,53 @@
+<view class="container">
+    <view class="page"></view>
+    <view class="title">梦想云社区</view>
+    <view class="rectangle1"></view>
+    <view class="text" style="top: 290rpx;left:110rpx;font-size:24rpx;width:540rpx">生活的社区总有哪处不合心意，在这里提出您的“梦想”，我们帮助您传递意愿；邻里关系越来越淡，在“云社区”你可以即时和小区居民交流，并点赞您关注的改造意愿，助力更多“梦想”实现。</view>
+    <image class="image1" src="../../images/city.png"></image>
+    <view class="text">--定点上传--</view>
+    <image class="image2" src="../../images/lightbulb.png" bindtap="skip1"></image>
+    <image class="image2" style="left:310rpx" src="../../images/send.png" bindtap="skip2"></image>
+    <image class="image2" style="left:548rpx" src="../../images/chat.png" bindtap="skip3"></image>
+    <view class="text" style="top: 990rpx;left:94rpx;font-size:24rpx;">关于我们</view>
+    <view class="text" style="top: 990rpx;left:320rpx;font-size:24rpx;">点击上传</view>
+    <view class="text" style="top: 990rpx;left:548rpx;font-size:24rpx;">线上社区</view>
+    <view class="rectangle2"></view>
+    <view class="text" style="top:1100rpx;left:306rpx;font-size:34rpx;color:rgb(255, 255, 255)">案例展示</view>
+    <view class="rectangle3"></view>
+    <scroll-view scroll-y fast-deceleration enhanced class="scrollView2">
+        <block wx:for="{{message}}" wx:for-item="item" wx:for-index="index">
+            <view class='crectangle1' style="top:{{46+index*300}}rpx"></view>
+            <view class='ctext1' style="top:{{64+index*300}}rpx">{{item.caseName}}</view>
+            <view class='crectangle2' style="top:{{68+index*300}}rpx"></view>
+            <view class='ctext2' style="top:{{70+index*300}}rpx;left:540rpx">{{item.caseNumber}}</view>
+            <view class='ctext3' style="top:{{106+index*300}}rpx">{{item.caseOrg}}</view>
+            <view class='crectangle3' style="top:{{140+index*300}}rpx;height:56rpx;border-radius:10rpx;"  bindtap="showModal" data-num="{{index}}"></view>
+            <view class='ctext5' style="top:{{146+index*300}}rpx;left:520.22rpx">查看详情</view>
+            <view class='crectangle3' style="top:{{205+index*300}}rpx;height:56rpx;border-radius:10rpx;" bindtap="passApplyNew" data-num="{{index}}" data-mode="{{0}}"></view>
+            <view class='ctext5' style="top:{{211+index*300}}rpx;left:520.22rpx">定制方案</view>
+            <image class="cpicture" src="{{item.picture}}" style="top:{{108+index*300}}rpx"></image>
+        </block>
+    </scroll-view>
+    <image class="image1" src="../../images/city2.png" style="top:2220rpx"></image>
+    <view class="rectangle2" style="top:2584rpx"></view>
+    <view class="text" style="top:2600rpx;left:306rpx;font-size:34rpx;color:rgb(255, 255, 255)">概念科普</view>
+    <view class="rectangle4" style="top:2690rpx"></view>
+    <view class="text" style="top:2700rpx;left:40rpx;width:700rpx">什么是城市微更新？(Urban mirco renewal)</view>
+    <view class="text" style="top: 2800rpx;left:50rpx;font-size:24rpx;width:640rpx">“微”是指微小空间、微小问题、微小投入;“更新”是指优化，是为了创造新的、更好的体验和感受。“城市微更新”是指按照循序渐进的城市更新理念，以群众需求和参与为导向，对城市品质不高、长期闲置、利用不足、功能不优的微型公共空间和老旧建筑进行改造提升，推动城市存量空间的活化与利用，唤醒社区文化记忆。</view>
+    <image class="image1" src="../../images/city3.png" style="top:3120rpx;height:400rpx;width:500rpx;left:100rpx"></image>
+    <view class="rectangle4" style="top:3560rpx"></view>
+    <view class="text" style="top:3570rpx;left:40rpx;width:700rpx">什么是定点上传？(Positioning and Upload)</view>
+    <view class="text" style="top: 3670rpx;left:50rpx;font-size:24rpx;width:640rpx">“定点上传”是获取居民改造建议的一种途径。通过定点上传，我们能够让设计师与政府在进行实地考察前就获得待改造区域的相关信息以及居民的改造需求。</view>
+    <view class="rectangle4" style="top:3860rpx"></view>
+    <view class="text" style="top:3870rpx;left:40rpx;width:700rpx">定点上传的优势有哪些？(Advantages)</view>
+    <view class="text" style="top: 3970rpx;left:50rpx;font-size:24rpx;width:640rpx">传统的城市微更新项目由政府和设计师主导开展，对居民的需求调研主要采用抽样调查、、实地考察、会议讨论等传统形式，调查成本高，且常常与居民的实际需求产生较大偏差。而“定点上传”让所有居民都可以直接、方便地反映自己的真实需求。</view>
+</view>
+<scroll-view class="scrollview">
+    <swiper class="swiper-box" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:for-index="index">
+  <swiper-item>
+  <image class='image3' src="{{item}}"></image>
+  </swiper-item>
+  </block>
+  </swiper>
+</scroll-view>

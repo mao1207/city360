@@ -1,0 +1,1 @@
+"D:\applet of WeChat\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-5g4g9z2c6f2bc68c --n quickstartFunctions --r --project "D:\applet of WeChat\城市360\城市360项目" --report_first --report

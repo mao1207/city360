@@ -1,0 +1,244 @@
+page {
+    background-size: 100% 2624rpx;
+    padding-bottom: 60rpx;
+    padding-top: 54rpx;
+    background: linear-gradient(rgba(90,186,245,1) 5.559%,rgba(140,224,244,1) 12.923%,rgba(158,240,240,1) 19.622%,rgba(165,251,245,1) 32.847%,rgba(254,250,248,0.054901960784313725) 94.713%);
+  }
+
+  .title{
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40rpx;
+    margin-top: 44rpx;
+    margin-bottom: 88rpx;
+    text-align: center;
+  }
+
+  .text{
+    position: absolute;
+    width: 200rpx;
+    height: 48rpx;
+    top: 790rpx;
+    left: 290rpx;
+    color: rgb(89, 38, 11);
+    font-family: Noto Sans SC;
+    font-size: 32rpx;
+    font-weight: 500;
+    line-height: 48rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+  }
+
+  .rectangle1{
+    position: absolute;
+    width: 598rpx;
+    height: 270rpx;
+    top: 258rpx;
+    left: 76rpx;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border: 6rpx solid rgb(138, 193, 255);
+    border-radius: 40rpx;
+  }
+
+  .rectangle2{
+    position: absolute;
+    width: 750rpx;
+    height: 86rpx;
+    top: 1084rpx;
+    left: 0rpx;
+    background: rgb(127, 214, 244);
+  }
+
+  .rectangle3{
+    position: absolute;
+    width: 750rpx;
+    height: 3100rpx;
+    top: 1170rpx;
+    left: 0rpx;
+    background: rgb(222, 250, 248);
+  }
+
+  .rectangle4{
+    position: absolute;
+    width: 16rpx;
+    height: 70rpx;
+    top: 892rpx;
+    left: 0rpx;
+    background: rgb(3, 192, 255);
+    border-top-right-radius: 16rpx;
+    border-bottom-right-radius: 16rpx;
+}
+
+  .image1{
+    position: absolute;
+    width: 666rpx;
+    height: 600rpx;
+    top: 330rpx;
+    left: 46rpx;
+  }
+
+  .image2{
+    position: absolute;
+    width: 106rpx;
+    height: 108rpx;
+    top: 872rpx;
+    left: 90rpx;
+  }
+
+  .image3{
+    position: absolute;
+    width: 662.02rpx;
+    height: 280.90rpx;
+    top: 0rpx;
+    left:0rpx;
+    border-radius: 16rpx;
+}
+
+wx-swiper .wx-swiper-dot {
+    position: relative;
+    top:-278rpx;
+    width: 16rpx;
+    height: 16rpx;
+    border-radius: 8rpx;
+}
+wx-swiper .wx-swiper-dot-active {
+  background-color:rgb(0, 109, 252);
+}
+
+.swiper-box {
+    position: relative;
+    width: 662.02rpx;
+    height: 600rpx;
+    top: 0rpx;
+    left:46.5rpx;  
+ }
+
+ .scrollview{
+    position: absolute;
+    top: 1200rpx;
+    height: 340rpx;
+ }
+
+ .crectangle1{
+    position: absolute;
+    width: 629.92rpx;
+    height: 228rpx;
+    top: 46rpx;
+    left: 56rpx;
+    background: rgb(127, 214, 244);
+    box-shadow: 2rpx 2rpx 10rpx rgba(255, 255, 255, 1);
+    border-radius: 32rpx;
+}
+
+.crectangle2{
+    position: absolute;
+    width: 138rpx;
+    height: 26rpx;
+    top: 68rpx;
+    left: 508rpx;
+    background: rgb(62, 98, 255);
+    border-radius: 100rpx;
+}
+
+.crectangle3{
+    position: absolute;
+    width: 155.96rpx;
+    height: 69.3rpx;
+    top: 192rpx;
+    left: 499.58rpx;
+    background: rgb(62, 98, 255);
+    border-radius: 27rpx;
+}
+
+.ctext1{
+    position: absolute;
+    width: 398rpx;
+    height: 36rpx;
+    top: 64rpx;
+    left: 86rpx;
+    color: rgb(40, 31, 28);
+    font-family: Noto Sans SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    line-height: 36rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.ctext2{
+    position: absolute;
+    width: 130rpx;
+    height: 28rpx;
+    top: 70rpx;
+    left: 520rpx;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans SC;
+    font-size: 16rpx;
+    font-weight: 400;
+    line-height: 24rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.ctext3{
+    position: absolute;
+    width: 150rpx;
+    height: 26rpx;
+    top: 106rpx;
+    left: 510rpx;
+    color: rgb(40, 31, 28);
+    font-family: Noto Sans SC;
+    font-size: 18rpx;
+    font-weight: 400;
+    line-height: 26rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.ctext4{
+    position: absolute;
+    width: 200rpx;
+    height: 28rpx;
+    top: 146rpx;
+    left: 520rpx;
+    color: rgb(40, 31, 28);
+    font-family: Noto Sans SC;
+    font-size: 24rpx;
+    font-weight: 400;
+    line-height: 36rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+}
+
+.ctext5{
+    position: absolute;
+    width: 141.78rpx;
+    height: 50rpx;
+    top: 210rpx;
+    left: 550.22rpx;
+    color: rgb(255, 255, 255);
+    font-family: Noto Sans SC;
+    font-size: 28rpx;
+    font-weight: 400;
+    line-height: 42rpx;
+    letter-spacing: 0rpx;
+    text-align: left;
+    pointer-events:none;
+}
+
+.cpicture{
+    position: absolute;
+    width: 402rpx;
+    height: 154rpx;
+    top: 108rpx;
+    left: 76rpx;
+}
+
+.scrollView2{
+    position: absolute;
+    top:1520rpx;
+    left:0rpx;
+    height: 900rpx;
+}

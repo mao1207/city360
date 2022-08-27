@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="page"></view>
+    <view class="title">梦想云社区</view>
+    <image class="image1" src="../../images/case2.png" bindtap="uploadImg"></image>
+    <view class="text1">用户31254</view>
+    <view class="rectangle6"></view>
+    <view class="text5">上传记录</view>
+    <image class="image2" src="../../images/rightArrow2.png"></image>
+    <view class="text6">意见反馈</view>
+    <image class="image3" src="../../images/rightArrow2.png"></image>
+    <view class="text7">设置</view>
+    <image class="image4" src="../../images/rightArrow2.png"></image>
+    <view class="text8">关于</view>
+    <image class="image5" src="../../images/rightArrow2.png"></image>
+    <view class="rectangle3" bindtap="logOut"></view>
+    <view class="text4">退出登录</view>
+</view>

@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="page"></view>
+    <view class="title">梦想云社区</view>
+    <view class="rectangle1" style="top:190rpx"></view>
+    <view class="text" style="top:200rpx;left:40rpx;width:700rpx">Q: 我们是谁？(Who are we?)</view>
+    <view class="text" style="top: 280rpx;left:50rpx;font-size:24rpx;width:640rpx">全年龄段社群化城市微更新服务提供者!</view>
+    <view class="rectangle1" style="top:390rpx"></view>
+    <view class="text" style="top:400rpx;left:40rpx;width:700rpx">Q: 我们做什么？(What do we do?)</view>
+    <text class="text" style="top: 480rpx;left:50rpx;font-size:24rpx;width:640rpx">年龄段的全面覆盖：
+不论是儿童、老人还是社会中坚力量的中青年人，都可以在小程序中提出自己的诉求，孩子缺少娱乐和学习的场所？在大城市打拼的成年人想要在下班后吃到社区食堂的一碗热汤面？老年人苦恼于家附近没有养老机构？都可以在小程序中提出您的需求，我们将会整合这些需求，找到合适的改造方，最大程度满足您的需求。
+社群化服务：
+在这里，我们提供了基于社区的论坛讨论区，您可以在上面关注到同社区居民提出的改造意愿，并进行点赞评论，对于热度高的意见我们将首先反馈。这里也可以成为您拉近邻里关系的纽带与桥梁。</text>
+<image class="image1" src="../../images/city.png"></image>
+<view class="text" style="top: 1380rpx;left:50rpx;font-size:24rpx;width:640rpx">如有合作意愿请联系我们：13456822654（陈）</view>
+</view>

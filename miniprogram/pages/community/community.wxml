@@ -1,0 +1,25 @@
+<view class="container">
+    <view class="page"></view>
+    <view class="title">梦想云社区</view>
+    <view class="text1" bindtap="click" data-num="{{0}}"style="font-size: {{type2==0?'32rpx':'36rpx'}};">评论</view>
+    <view class="rectangle1"style="left: {{type2==0?'388rpx':'138rpx'}};width:{{type2==0?'160rpx':'62rpx'}}"></view>
+    <view class="text1" style="left:388rpx;width:200rpx;font-size: {{type2==1?'32rpx':'36rpx'}}"bindtap="click" data-num="{{1}}">问题反馈</view>
+    <image class="image1" src="../../images/magnifyingGlass.png"></image>
+    <scroll-view scroll-y fast-deceleration enhanced class="scrollView"style="display:{{type2==0?'none':'block'}}">
+        <block wx:for="{{message}}" wx:for-item="item" wx:for-index="index">
+            <view class='crectangle1' style="top:{{46+index*300}}rpx"></view>
+            <view class='ctext1' style="top:{{64+index*300}}rpx">{{item.caseName}}</view>
+            <view class='crectangle2' style="top:{{68+index*300}}rpx"></view>
+            <view class='ctext2' style="top:{{70+index*300}}rpx;left:540rpx">{{item.caseNumber}}</view>
+            <view class='ctext3' style="top:{{106+index*300}}rpx">{{item.caseOrg}}</view>
+            <view class='crectangle3' style="top:{{140+index*300}}rpx;height:56rpx;border-radius:10rpx;"  bindtap="showModal" data-num="{{index}}"></view>
+            <view class='ctext5' style="top:{{146+index*300}}rpx;left:520.22rpx">查看详情</view>
+            <view class='crectangle3' style="top:{{205+index*300}}rpx;height:56rpx;border-radius:10rpx;" bindtap="passApplyNew" data-num="{{index}}" data-mode="{{0}}"></view>
+            <view class='ctext5' style="top:{{211+index*300}}rpx;left:520.22rpx">定制方案</view>
+            <image class="cpicture" src="{{item.picture}}" style="top:{{108+index*300}}rpx"></image>
+        </block>
+    </scroll-view>
+    <view style="display:{{type2==1?'none':'block'}}">
+        <input>iwhjfihioq3hfohiofhqiohohfoief</input>
+    </view>
+</view>
